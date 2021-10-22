@@ -21,28 +21,28 @@ const App = () => {
 
       <div className="flex items-center justify-center gap-10 h-36">
         <button
-          className="bg-blue-500 btn btn-primary "
+          className=" btn btn-primary"
           onClick={() => dispatch(INCREMENT())}
         >
           Increment
         </button>
 
         <button
-          className="bg-purple-500 rounded-full btn btn-primary"
+          className="rounded-full btn btn-secondary"
           onClick={() => dispatch(DECREMENT())}
         >
           Decrement
         </button>
 
         <button
-          className="bg-green-500 btn btn-primary"
+          className=" btn btn-circle btn-lg"
           onClick={() => dispatch(RESET())}
         >
           Reset
         </button>
         
         <button
-          className="btn btn-primary"
+          className="btn btn-outline btn-accent"
           onClick={() => dispatch(ADD_COUNT(10))}
         >
           Add on
