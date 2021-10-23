@@ -16,7 +16,9 @@ const App = () => {
 
   return (
     <div className="px-5 m-auto bg-green-100 border rounded-lg mt-44 w-max">
-      <p className="mt-1 text-2xl font-bold text-center text-green-600">Counter App</p>
+      <p className="mt-1 text-2xl font-bold text-center text-green-600">
+        Counter App
+      </p>
       <p className="mt-20 text-2xl font-bold text-center">{count}</p>
 
       <div className="flex items-center justify-center gap-10 h-36">
@@ -40,7 +42,7 @@ const App = () => {
         >
           Reset
         </button>
-        
+
         <button
           className="btn btn-outline btn-accent"
           onClick={() => dispatch(ADD_COUNT(10))}
